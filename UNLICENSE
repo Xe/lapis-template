@@ -1,9 +1,3 @@
-# lapis-template
-A generic template I use for Lapis apps.
-
-This is in the public domain.
-
-```
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
@@ -28,18 +22,3 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
-```
-
-Things for you to do:
-
-- Rebrand `layout/bootstrap.moon`
-- Replace the CSS for your preferred bootstrap theme. I'm using a modified 
-version of the [Readable](http://bootswatch.com/readable/) theme for this 
-example.
-- Add routes as needed
-- Add database models
-
-This is set up to deploy via my 
-[lapis docker image](https://github.com/Xe/docker-lapis). As for server side 
-I highly suggest looking into 
-[dokku-alt](https://github.com/dokku-alt/dokku-alt).

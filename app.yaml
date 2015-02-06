@@ -1,0 +1,9 @@
+name: "myapp"
+
+overlay:
+ - apt-get update
+ - apt-get install -y lua-sec
+
+dependencies:
+ - moonscript
+ - dkjson
